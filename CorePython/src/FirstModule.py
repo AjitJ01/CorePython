@@ -11,10 +11,10 @@ def addFixedValue(a):
     i = 1
     for i in range(1, 10):
         if i <= 5 :
-            print 'Smaller or equal than 5.\n',
+            print ("smaller number")
         else:
-            print 'Larger than 5.\n',
+            print ("Larger number")
 
 
-print add(1,2)
+print (add(1,2))
 addFixedValue(1)
